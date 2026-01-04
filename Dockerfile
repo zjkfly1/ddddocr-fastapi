@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # 安装项目依赖
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 # 暴露端口 8000
 EXPOSE 8000
